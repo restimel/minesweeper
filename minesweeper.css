@@ -1,0 +1,23 @@
+.sweeper-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nbMines {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.timer {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mine-cell {
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+button.mine-cell {
+    cursor: pointer;
+}
